@@ -62,4 +62,11 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #The lines below were added manually by me
+#adding paperclip
 gem 'paperclip', '~> 4.2'
+#adding from
+gem 'simple_form'
+#adding bootstrap
+gem 'bootstrap-sass'
+gem 'sassc-rails', '>= 2.1.0'
+gem 'jquery-rails'
