@@ -23,6 +23,10 @@ class PostsController < ApplicationController
       render :new
     end
     end
+    
+    def wall 
+    @posts=Post.all
+    end
 
     def show
         
