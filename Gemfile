@@ -70,3 +70,5 @@ gem 'simple_form'
 gem 'bootstrap-sass'
 gem 'sassc-rails', '>= 2.1.0'
 gem 'jquery-rails'
+#adding devise for authentication and stuff
+gem 'devise'
