@@ -72,3 +72,5 @@ gem 'sassc-rails', '>= 2.1.0'
 gem 'jquery-rails'
 #adding devise for authentication and stuff
 gem 'devise'
+#implementing infinite scroll
+gem 'will_paginate', '~> 3.1.7'

@@ -1,6 +1,4 @@
 <div class="posts-wrapper row">
-  <% @posts.each do |post| %>
-  <%if post.user == current_user %>
     <div class="post">
       <div class="post-head">
         <div class="name">
@@ -16,7 +14,4 @@
       </p>
       <%= link_to 'Show Post', post_path(post) %>
     </div>
-    <% end %>
-  <% end %>
 </div>
-
