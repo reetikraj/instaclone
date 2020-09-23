@@ -14,10 +14,11 @@
 //= require activestorage
 //= require turbolinks
 //= require_tree .
+
 //= require jquery
 //= require bootstrap-sprockets
 //= require jquery_ujs
-import 'bootstrap'
+//= require bootstrap
 $(document).ready(function() {
   if ($('.pagination').length) {
     $(window).scroll(function() {

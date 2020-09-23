@@ -74,3 +74,5 @@ gem 'jquery-rails'
 gem 'devise'
 #implementing infinite scroll
 gem 'will_paginate', '~> 3.1.7'
+gem 'bootstrap-will_paginate'
+gem 'kaminari'

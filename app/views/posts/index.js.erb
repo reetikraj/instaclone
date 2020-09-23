@@ -1,5 +1,7 @@
-$('.posts').append('#{escape_javascript(render partial: "shared/posts", :locals => { :posts => @posts })}');
-$('a.load-more-posts').attr('href', '#{posts_path page: @posts.next_page}');
-<% unless @posts.next_page %>
-  $('a.load-more-posts').remove();
+$('#posts').append("<%=j render(partial: 'post', collection: @posts, format: 'html') %>");
+
+<% if @posts.current_page == @posts.total_pages %>
+  $('#view-more').remove();
+<% else %>
+  $('#view-more a').attr('href', '<%= url_for(page: @posts.current_page + 1) %>');
 <% end %>
